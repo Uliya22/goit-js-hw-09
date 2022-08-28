@@ -71,7 +71,6 @@ const timer = {
                 hoursFace.textContent = '00';
                 minutesFace.textContent = '00';
                 secondsFace.textContent = '00';
-
               } 
         }, 1000);
     }
