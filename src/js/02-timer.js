@@ -53,7 +53,7 @@ const timer = {
         if (this.isActive) {
             return;
         }
-        
+
        this.isActive= true;
 
        const timertId = setInterval(() => {
@@ -67,10 +67,10 @@ const timer = {
             if (deltaTime <= 0) {
                 clearInterval(timertId);
                 timerFace.value = 'The end';
-                daysFace.textContent = 00;
-                hoursFace.textContent = 00;
-                minutesFace.textContent = 00;
-                secondsFace.textContent = 00;
+                daysFace.textContent = '00';
+                hoursFace.textContent = '00';
+                minutesFace.textContent = '00';
+                secondsFace.textContent = '00';
 
               } 
         }, 1000);
