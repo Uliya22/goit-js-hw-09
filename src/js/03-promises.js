@@ -17,6 +17,7 @@ function  onFormSubmit(evt) {
     createPromise(position, delay).then(Notify.success).catch(Notify.failure);
     delay += step;
   }
+  form.reset();
 }
 
 function createPromise(position, delay) {
